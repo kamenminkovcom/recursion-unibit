@@ -19,7 +19,7 @@ namespace SmallestNumber
         {
             if (numbers.Count == 0)
             {
-                throw new ArgumentException("The list of should contain at list one element");
+                throw new ArgumentException("The list of should contain at least one element");
             }
 
             int possibleMin1 = numbers.First();
