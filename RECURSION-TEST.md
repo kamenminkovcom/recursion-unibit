@@ -66,6 +66,55 @@ static void Main()
   c) принтира числата от 0 до 9  
   d) принтира числата от 0 до 10  
 
+9) Какво прави следната функция:  
+```
+public static void Print(int n)
+{
+  
+    if (n == 10)
+    {
+        return;
+    }
+    
+    Print(n + 1);
+    
+    Console.WriteLine(n);
+}
+
+static void Main()
+{
+    Print(1);
+}
+```
+  a) принтира на козолата числата от 1 до 10  
+  b) принтира числата от 9 до 1  
+  c) принтира числата от 9 до 0  
+  d) принтира числата от 10 до 1  
+
+10) Какво прави следната функция:  
+```
+public static void Print(int n)
+{
+    Print(n + 1);
+    
+    if (n == 10)
+    {
+        return;
+    }
+    
+    Console.WriteLine(n);
+}
+
+static void Main()
+{
+    Print(1);
+}
+```
+  a) принтира на козолата числата от 1 до 10  
+  b) принтира числата от 9 до 1  
+  c) StackOverflowException
+  d) принтира числата от 10 до 1  
+
 ### Отговори
 1) c)  
 2) a)  
@@ -74,4 +123,6 @@ static void Main()
 5) c)  
 6) c)  
 7) d)  
-8) b)
+8) b)  
+9) b)  
+10) c)  
