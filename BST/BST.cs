@@ -6,9 +6,7 @@ namespace BST
     {
         static void Main()
         {
-            var node = new Node(
-                10, new Node(15, null, null), new Node(11, null, null)
-                );
+            var node = new Node(10, new Node(15, null, null), new Node(11, null, null));
             Console.WriteLine(IsBST(node, int.MinValue, int.MaxValue));
         }
 
