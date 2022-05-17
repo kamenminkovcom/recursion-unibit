@@ -1,5 +1,11 @@
 ﻿using System;
 
+/* 
+* The problem description could be found in IsBST.md file
+* IsBST.md is located in the root directory of the project
+* Link to the description - https://github.com/kamenminkovcom/recursion-unibit/blob/master/IsBST.md
+*/
+
 namespace BST
 {
     internal class BST

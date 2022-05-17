@@ -2,6 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 
+/* 
+* The problem description could be found in SMALLEST_NUMBER.md file
+* SMALLEST_NUMBER.md is located in the root directory of the project
+* Link to the description - https://github.com/kamenminkovcom/recursion-unibit/blob/master/SMALLEST-NUMBER.md
+*/
+
 namespace SmallestNumber
 {
     internal class Program
